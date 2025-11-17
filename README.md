@@ -5,7 +5,7 @@ A comprehensive mental health awareness platform with a responsive frontend and 
 ## 🎯 Quick Start
 
 ```powershell
-cd "c:\Users\sidlo\Downloads\Mental-Health-Awareness-Website-main\Mental-Health-Awareness-Website-main"
+cd "c:\Users\username\Downloads\Mental-Health-Awareness-Website-main\Mental-Health-Awareness-Website-main"
 npm install
 npm start
 # Open browser: http://127.0.0.1:3000

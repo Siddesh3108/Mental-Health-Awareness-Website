@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Mental Health Seminars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;  
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .seminar {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .seminar h2 {
+            color: #4CAF50;
+        }
+
+        .seminar p {
+            margin-bottom: 10px;
+        }
+
+        .seminar button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .seminar button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mental Health Seminars</h1>
+</header>
+
+<div class="container">
+    <div class="seminar">
+        <h2>Seminar : Understanding Anxiety</h2>
+        <p>Date: March 30, 2024</p>
+        <p>Time: 10:00 AM - 12:00 PM</p>
+        <button onclick="register()">Register</button>
+    </div>
+</div>
+
+<script>
+    function register() {
+        
+        window.location.href = "MHSregistration_form.html";
+    }
+</script>
+
+</body>
+</html>

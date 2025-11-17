@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Registration Form</h1>
+</header>
+
+<div class="container">
+    <form id="registrationForm" method="post" action="/api/register">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br>
+
+        <label for="contact">Contact Info:</label><br>
+        <input type="text" id="contact" name="contact" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+    <!-- registration handled via script.js using fetch to POST /api/register -->
+    <script src="script.js"></script>
+
+</body>
+</html>

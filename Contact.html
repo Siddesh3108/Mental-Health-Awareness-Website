@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact a Professional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Contact a Professional</h1>
+    </header>
+    
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a class="nav-link" href="Project_home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <h2>Find Support Near You</h2>
+        <p style="text-align: center;">Reaching out is a sign of strength. Below are contacts for professionals in major cities. Please note these are placeholder contacts.</p>
+        <div class="locations">
+            <div class="location">
+                <h3>Mumbai</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa8oy6BCoUNLUDgwRHROLn_lZR-_kqVAD9w&s" class="doctor-photo" alt="Doctor">
+                <p>Dr. XYZ<br>Phone: 9000xxxxx<br>Email: <a href="mailto:abc.xyz@gmail.com">abc.xyz@gmail.com</a></p>
+            </div>
+            <div class="location">
+                <h3>Bengaluru</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa8oy6BCoUNLUDgwRHROLn_lZR-_kqVAD9w&s" class="doctor-photo" alt="Doctor">
+                <p>Dr. XYZ<br>Phone: <a href="tel:9000xxxxx">9000xxxxx</a><br>Email: <a href="mailto:abc.xyz@gmail.com">abc.xyz@gmail.com</a></p>
+            </div>
+            <div class="location">
+                <h3>Kolkata</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa8oy6BCoUNLUDgwRHROLn_lZR-_kqVAD9w&s" class="doctor-photo" alt="Doctor">
+                <p>Dr. XYZ<br>Phone: 9000xxxxx<br>Email: <a href="mailto:abc.xyz@gmail.com">abc.xyz@gmail.com</a></p>
+            </div>
+            <div class="location">
+                <h3>Delhi</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa8oy6BCoUNLUDgwRHROLn_lZR-_kqVAD9w&s" class="doctor-photo" alt="Doctor">
+                <p>Dr. XYZ<br>Phone: 9000xxxxx<br>Email: <a href="mailto:abc.xyz@gmail.com">abc.xyz@gmail.com</a></p>
+            </div>
+             <div class="location">
+                <h3>Pune</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa8oy6BCoUNLUDgwRHROLn_lZR-_kqVAD9w&s" class="doctor-photo" alt="Doctor">
+                <p>Dr. XYZ<br>Phone: 9000xxxxx<br>Email: <a href="mailto:abc.xyz@gmail.com">abc.xyz@gmail.com</a></p>
+            </div>
+        </div>
+    </main>
+    
+    <section class="container contact-form-section">
+        <h2>Send us a message</h2>
+        <form id="contactForm" method="post" action="/api/contact">
+            <label for="cname">Name</label><br>
+            <input id="cname" name="name" type="text" required><br>
+            <label for="cemail">Email</label><br>
+            <input id="cemail" name="email" type="email" required><br>
+            <label for="cmessage">Message</label><br>
+            <textarea id="cmessage" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+        <div id="contactResponse" style="margin-top:10px;"></div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Mental Health Companion. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

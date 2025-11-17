@@ -1,0 +1,227 @@
+/* General Body & Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Images and Videos */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Buttons and Forms */
+.action-button, input[type="submit"], button {
+    display: block;
+    width: 220px;
+    padding: 12px 20px;
+    margin: 20px auto;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover, input[type="submit"]:hover, button:hover {
+    background-color: #218838;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+form p.question-text {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 10px 10px;
+    font-weight: normal;
+    color: #333;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+/* Quiz Result Styling */
+#results {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #333;
+}
+
+#results h3 {
+    margin-top: 0;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Specific Page Styles */
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+.service-list li {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+.service-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.service-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.service-list .icon {
+    float: left;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+.about-problem {
+    background-color: #e9f5ff;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.location {
+    width: 45%;
+    margin-bottom: 30px;
+}
+.doctor-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.seminar {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}

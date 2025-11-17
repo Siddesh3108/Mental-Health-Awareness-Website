@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Stress-Busting Exercises</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: black;
+        }
+        p {
+            line-height: 1.6;
+        }
+        button {
+            padding: 0.8em 1.2em;
+            margin: 0.5em 0.2em;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stress-Busting Exercises</h1>
+    </header>
+
+    <div class="container">
+        <h2>Exercise 1: Deep Breathing</h2>
+        <p>Deep breathing can help relax your mind and body. Try the 4-7-8 breathing technique: inhale through the nose for 4 seconds, hold the breath for 7 seconds, and exhale through the mouth for 8 seconds.</p>
+        <button onclick="startBreathingExercise('Deep Breathing')">Start Exercise</button>
+
+        <h2>Exercise 2: Progressive Muscle Relaxation</h2>
+        <p>This exercise involves tensing and relaxing different muscle groups to release tension. Start with your toes and work your way up to your head.</p>
+        <button onclick="startMuscleRelaxationExercise('Progressive Muscle Relaxation')">Start Exercise</button>
+
+        <h2>Exercise 3: Mindfulness Meditation</h2>
+        <p>Mindfulness meditation helps you focus on the present moment and let go of stress. Find a quiet place, sit comfortably, and focus on your breath or a calming word or phrase.</p>
+        <button onclick="startMeditationExercise('Mindfulness Meditation')">Start Exercise</button>
+    </div>
+
+    <script>
+        function startBreathingExercise(exerciseName) {
+            alert('Follow the 4-7-8 breathing technique: inhale through the nose for 4 seconds, hold the breath for 7 seconds, and exhale through the mouth for 8 seconds. Repeat this cycle several times to relax.');
+        }
+
+        function startMuscleRelaxationExercise(exerciseName) {
+            alert('Begin by tensing the muscles in your toes for a few seconds, then relax and feel the tension release. Continue this process, moving up through each muscle group in your body, until you reach your head.');
+        }
+
+        function startMeditationExercise(exerciseName) {
+            alert('Find a quiet place to sit comfortably. Close your eyes and focus on your breath or a calming word or phrase. If your mind wanders, gently bring your focus back to the present moment.');
+        }
+    </script>
+</body>
+</html>

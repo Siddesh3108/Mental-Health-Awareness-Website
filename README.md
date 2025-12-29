@@ -27,7 +27,7 @@ $env:ADMIN_PASS='strongpassword'
 npm start
 ```
 
-This is locallly hosted platform.
+This is locally hosted platform.
 
 If credentials are not provided by the browser, the page will prompt for them.
 

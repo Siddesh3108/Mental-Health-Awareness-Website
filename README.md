@@ -27,9 +27,7 @@ $env:ADMIN_PASS='strongpassword'
 npm start
 ```
 
-To access the admin page, open:
-
-`http://127.0.0.1:3000/admin`
+This is locallly hosted platform.
 
 If credentials are not provided by the browser, the page will prompt for them.
 
